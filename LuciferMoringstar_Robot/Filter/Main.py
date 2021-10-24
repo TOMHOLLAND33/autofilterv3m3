@@ -289,18 +289,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 return
         elif query.data == "help":
             buttons = [[
-                InlineKeyboardButton('Update Channel', url='t.me/Mo_Tech_YT'),
-                InlineKeyboardButton('Source Code', url="https://github.com/PR0FESS0R-99/LuciferMoringstar_Robot")
+                InlineKeyboardButton('⚜️ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ⚜️', url='t.me/NM_NEWMOVIESALWAYSHD'),
+                InlineKeyboardButton('⚜️ 𝗚𝗥𝗢𝗨𝗣 ⚜️', url="https://t.me/newmoviesgrouup")
                 ],[
-                InlineKeyboardButton('💫Deploy Video💫', url=f'{TUTORIAL}')
+                InlineKeyboardButton('👨‍💻 𝗠𝗬 𝗗𝗘𝗩 👨‍💻', url=f'https://t.me/TOM_HOLLA_ND')
                 ]]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='t.me/Mo_Tech_YT'),
-                    InlineKeyboardButton('Source Code', url=f'{TUTORIAL}')
+                    InlineKeyboardButton('⚜️ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ⚜️', url='t.me/NM_NEWMOVIESALWAYSHD'),
+                    InlineKeyboardButton('⚜️ 𝗚𝗥𝗢𝗨𝗣 ⚜️', url=f'https://t.me/newmoviesgrouup')
                 ]
                 ]
             await query.message.edit(text=f"{ABOUT}".format(TUTORIAL), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -323,7 +323,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('💫 DEPLOY VIDEO 💫', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('👨‍💻 𝗠𝗬 𝗗𝗘𝗩 👨‍💻', url=f'https://t.me/TOM_HOLLA_ND')
                     ]
                     ]
                 
@@ -354,7 +354,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('⚜️ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ⚜️', url=f't.me/NM_NEWMOVIESALWAYSHD')
                     ]
                     ]
                 
